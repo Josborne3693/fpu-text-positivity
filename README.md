@@ -20,7 +20,7 @@ $ make
 
 ## Run main.sh
 
-usage:  $0 [-h] | [-f | -l | -L] file 
+usage:  $ ./main.sh [-h] | [-f | -l | -L] file 
 -- classifies text into the predictions folder -- 
 where: 
 -h | --help   show this help text 
