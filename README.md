@@ -19,16 +19,16 @@ $ make
 ```
 
 ## Run main.sh
-
-usage:  $ ./main.sh [-h] | [-f | -l | -L] file 
--- classifies text into the predictions folder -- 
-where: 
--h | --help   show this help text 
--l | --lines  classify each line of the file individually 
--f | --file   classify the entire file as if it were one line 
--L | --live   classify each line input to stdin 
-            - live should only contain [a-z]\*[0-9]\*[#]\* 
-
+```
+usage:  $ ./main.sh [-h] | [-f | -l | -L] file
+-- classifies text into the predictions folder --
+where:
+-h | --help   show this help text
+-l | --lines  classify each line of the file individually
+-f | --file   classify the entire file as if it were one line
+-L | --live   classify each line input to stdin
+            - live should only contain [a-z]\*[0-9]\*[#]\*
+```
 NOTE: if the input filename already exists in the 
 predictions folder, those files WILL be overwritten 
 
